@@ -1,0 +1,58 @@
+@font-face{
+    font-family: Sunfish;
+    src: url('../FONTS/Winter\ Lemon.otf');
+}
+body{
+    background-color: rgb(190, 152, 168);
+    text-align: center;
+}
+header{
+    background-color:rgb(206, 101, 159);
+    padding: 10px;
+}
+
+header h2{
+    padding: 0px;
+}
+.menu{
+    list-style: none;
+    padding: 15px;
+    background-color: rgb(218, 174, 201);
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    width: 340px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+button{
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 147, 181);
+}
+
+button:hover{
+
+    background-color: rgb(185, 122, 170);;
+}
+
+

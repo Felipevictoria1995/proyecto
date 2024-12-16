@@ -1,0 +1,46 @@
+@font-face{
+    font-family: Sunfish;
+    src: url('../FONTS/Winter\ Lemon.otf');
+}
+body{
+    background-color: rgb(190, 152, 168);
+    text-align: center;
+}
+header{
+    background-color:rgb(206, 101, 159);
+    padding: 10px;
+}
+
+header h2{
+    padding: 0px;
+}
+.menu{
+    list-style: none;
+    padding: 15px;
+    background-color: rgb(218, 174, 201);
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.porta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.porta-card{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    width: 475px;
+    overflow: hidden;
+    transition: transform 0.3, box-shadow 0.3s;
+}

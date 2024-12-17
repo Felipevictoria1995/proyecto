@@ -41,6 +41,7 @@ header h2{
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
     width: 475px;
+    height: auto;
     overflow: hidden;
     transition: transform 0.3, box-shadow 0.3s;
 }

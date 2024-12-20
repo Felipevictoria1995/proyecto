@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Sunfish;
+    src: url('../FONTS/Winter\ Lemon.otf');
+}
+body{
+    background-color: rgb(190, 152, 168);
+    text-align: center;
+}
+header{
+    background-color:rgb(206, 101, 159);
+    padding: 1rem;
+}

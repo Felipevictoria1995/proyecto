@@ -30,3 +30,16 @@ nav ul li a{
 nav ul li a:hover{
     background: rgb(206, 101, 159);
 }
+/*MEDIA QUERIES*/
+@media (max-width: 768px){
+    nav ul li a{
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    img{
+        height: 80%;
+        max-width: 200px;
+        border-radius: 100px;
+    }
+}

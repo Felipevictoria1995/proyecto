@@ -89,3 +89,16 @@ padding:4px;
     text-align: center;
   }
 
+  /*MEDIA QUERIES*/
+@media (max-width: 768px){
+    nav ul li a{
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    img{
+        height: 80%;
+        max-width: 200px;
+        border-radius: 100px;
+    }
+}

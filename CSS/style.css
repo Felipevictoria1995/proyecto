@@ -43,19 +43,7 @@ footer{
     padding: 70px;
 }
 
-.hstack {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-self: stretch;
-  }
-  
-  .vstack {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    align-self: stretch;
-  }
+
    .carousel-control-prev-icon{
     background-color: black;
    }
@@ -71,9 +59,7 @@ footer{
     
    }
 
-   .d-none d-md-block{
-    color: black;
-   }
+
    .carousel-caption img{
     color: black;
    }

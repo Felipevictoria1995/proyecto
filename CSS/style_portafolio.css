@@ -1,0 +1,91 @@
+@font-face{
+    font-family: Sunfish;
+    src: url('../FONTS/Winter\ Lemon.otf');
+}
+body{
+    background-color: rgb(190, 152, 168);
+    text-align: center;
+}
+header{
+    background-color:rgb(206, 101, 159);
+    padding: 1rem;
+    margin: 0;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(218, 174, 201);
+    margin: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 0;
+}
+ li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: rgb(206, 101, 159);
+}
+.porta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    height: 500px;
+}
+.porta-card1{
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    width: 100%;
+    max-width: 281px;
+    background-size: cover;
+    overflow: hidden;
+    transition: background ease-in .3s;   
+}
+.porta-card1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2) ;
+}
+.porta-card2{
+    padding: 0px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    width: 100%;
+    max-width: 281px;
+    overflow: hidden;
+    -webkit-transition:  rotate(360deg);
+    transition: 1s linear;
+}
+
+.porta-card2:hover{
+transform: rotate(360deg);
+}
+.porta-content{
+padding:4px;
+ background: #d1e3eb;  
+ box-sizing: border-box;
+ ; 
+}
+
+#statusMessage {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+  }
+

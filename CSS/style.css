@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Sunfish;
+    src: url('../FONTS/Winter\ Lemon.otf');
+}
+body{
+    background-color: rgb(190, 152, 168);
+    text-align: center;
+}
+header{
+    background-color:rgb(206, 101, 159);
+    padding: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(218, 174, 201);
+    margin: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 0;
+}
+ li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: rgb(206, 101, 159);
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+
+footer{
+    background-color: white;
+    padding: 70px;
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+  }
+  
+  .vstack {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-self: stretch;
+  }
+   .carousel-control-prev-icon{
+    background-color: black;
+   }
+
+   .carousel-control-next-icon{
+    background-color: black;
+   }
+
+   .carousel-inner{
+    width: 50%;
+    height: 70%;
+    display: inline-flex;
+    
+   }
+
+   .d-none d-md-block{
+    color: black;
+   }
+   .carousel-caption img{
+    color: black;
+   }
+
+ 

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcookies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Marcookies</h1> 
+    </header>
+    <main>
+        
+    <nav>
+    <ul>
+        <li><a href='index.html'>Inicio</a></li>
+        <li><a href='quienes.html'>Quienes Somos</a></li>
+        <li><a href='portafolio.html'>Portafolio</a></li>
+        <li><a href='contactanos.html'>Contactanos</a></li>
+    </ul>
+    </nav> <br>
+   <!-- <img src="IMG/Inicio.JPG"> <br> -->
+    <div class="container mt-5">
+      <!--carrusel boostrap-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+         <div class="carousel-indicators">
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+             <img src="IMG/Inicio.JPG" class="img" alt="...">
+             <div class="carousel-caption img">
+               <h5>Estamos para ti</h5>
+               <p>Las mejores galletas de jamundi mas cerca de ti.</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+             <img src="IMG/marcookies.JPG" class="img" alt="...">
+             <div class="carousel-caption img">
+               <h5>Second slide label</h5> 
+               <p>Some representative placeholder content for the second slide.</p>
+             </div>
+           </div>
+           <div class="carousel-item">
+            <video controls width="800" poster="IMG/Inicio.JPG"> 
+              <source src="VIDEO/clientes.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+          </video>
+             <div class="carousel-caption img">
+               <h5>Nuestros Clientes</h5>
+               <p>Acá podemos encontrar los diferentes clientes los cuales hemos hechos felices con nuestras galletas.</p>
+             </div>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div> <br>
+      </div>
+    
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

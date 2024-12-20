@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcookies</title>
+    <link rel="stylesheet" href="CSS/style_contactanos.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Marcookies</h1> 
+    </header>
+    <nav>
+    <ul>
+        <li><a href='index.html'>Inicio</a></li>
+        <li><a href='quienes.html'>Quienes Somos</a></li>
+        <li><a href='portafolio.html'>Portafolio</a></li>
+        <li><a href='contactanos.html' target="iframe-content">Contactanos</a></li>
+    </ul>
+</nav>
+    <main>
+      <form id="contactForm">
+        <h2>Contactanos</h2>
+            <div class="input">
+                  <label for="name"> Nombre </label>
+                  <input type="text" id="name" name="name" ></label> <br/>
+
+                  <label for="telefono"> Telefono </label>
+                  <input type="tel" id="telefono" name="telefono" ></label> <br/>
+
+                  <label for="correo"> Correo </label>
+                  <input type="correo" id="correo" name="correo" ></label> <br/>
+
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" placeholder="Escribe el mensaje aquí" rows="5" required></textarea>
+                  
+                  <button type="submit" >Enviar</button>
+            </div>
+
+      </form>
+      <p id="statusMessage"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Marcookies. Todos los derechos reservados.</p>
+     </footer>
+     <script>
+        //Inicializar EmailJS con tu clave pública
+        (function(){
+          emailjs.init("ioZ1BODdyUqCjNoGn");  //Reemplazar con la clave pública
+        })();
+      </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
